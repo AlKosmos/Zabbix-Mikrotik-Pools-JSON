@@ -7,8 +7,8 @@ This template needs changing macroses: {$MIKROTIK_SSH_PASS} {$MIKROTIK_SSH_PORT}
 Installation:
 
 1) Scripts use sshpass (I know using ssh keys is better) 
-In Debian: sudo apt install yum
-In Centos: sudo yum install yum
+In Debian: sudo apt install sshpass
+In Centos: sudo yum install sshpass
 
 2) Put IPPools_desk_m.rsc, ippools_d.sh, IPPools_m.rsc, ippools.sh in Zabbix ExternalScripts folder (usualy /usr/lib/zabbix/externalscripts)
 
